@@ -1,0 +1,289 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+.navbar{
+    padding: .8rem;
+    align-items: center;
+    background:linear-gradient(60deg,#20b96d, #0bc769, #b6f800);
+    box-shadow: 0px 0px 5px 0.2px rgb(94, 128, 94);
+  
+}
+.navba-nav li{
+     padding-right: 20px;
+     
+}
+.nav-link{
+    font-size:1.1em !important;
+    color: #ffffff;
+}
+.navbar-brand{
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    border-radius: 30px;
+    background-position: center;
+    
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+.front{
+    background-color: rgb(255, 255, 255);
+    background-image: url('./images/front.jpg');
+    margin-top: 75px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  
+  
+}
+.front-content{
+   padding:100px 0px 0px 100px;
+ 
+}
+.text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:#00964b;
+}
+.front-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+button{
+    margin: 5px;
+}
+.primarybtn{
+   
+   background: linear-gradient(60deg,#76e211,#20b96d);
+   color: #ffffff;
+  
+}
+.aboutme{
+padding: 30px;
+padding-bottom: 0px;
+backdrop-filter: 12;
+height: 60%;
+margin-top: 5%;
+
+
+
+}  
+.container{
+  margin-top: 30px;
+}
+
+.cv{
+    margin-top: 5px;
+border-radius: 4px;
+ padding: 10px;
+ float: right;
+
+}
+
+
+.skillContainer{
+    
+    margin-top: 150;
+    background: linear-gradient(60deg,#20b96d,#0bc769,#76e211);
+     
+}
+.skilllisting{
+margin-bottom: 20px;
+padding:30;
+}
+.skillTitle{
+    color:#ffffff;
+    font-weight: bold;
+}
+.skilltext{
+    color:#e7e7e7;
+}
+.service{
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.card{
+    background-color: #00964b00;
+    box-shadow: 0px 0px 20px 1px #07ad5a;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 1px #07ad5a;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.template{
+      margin-top:15px;
+      background: linear-gradient(60deg,#20b96d,#0bc769,#76e211);
+      padding:15px;
+}
+.client-img{
+    text-align: center;
+  
+}
+.img{
+    width:60%;
+    height: 85%;
+    border-radius: 50%;
+}
+.position{
+    font-weight: 400;
+    color:grey;
+}
+.dropmsg{
+   margin-top:20px;
+}
+.form-control{
+    border: 0;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+.card{
+    border: 0;
+   
+}
+footer{
+    background: linear-gradient(60deg,#20b96d,#0bc769,#76e211);
+    color: rgb(0, 0, 0);
+}
+.bi{
+    padding:8px;
+    color: rgb(15, 15, 15);
+}
+.myimg{
+    width: 100%;
+    height: 80%;
+    margin-top: 15%;
+}
+.maphoto{
+    max-width: 100%;
+    height: 90%;
+}
+ /* Style the Image Used to Trigger the Modal */
+ #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 5px;
+  
+    right: 25px;
+    color: #4b0f0f;
+    font-size: 26px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(116, 45, 45);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+} 
+/*subcribe button */
+.subscribe-modal{ 
+    display: none;
+position: fixed;
+top: 80px;
+right:0;
+
+background-color: rgba(48, 145, 145, 0.603);
+animation: appear 0.4s ease-in-out forwards;
+}
+@keyframes appear {
+    0%{
+        transform: translateY(-80px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.customer-info{
+    border: 0;
+    border-radius: 4px;
+    width: 80%;
+    padding:8px;
+    margin:5px;
+    background-color: rgb(105, 179, 179);
+    color: rgb(0, 0, 0);
+
+}
+/* For mobile phones: */
+@media (max-width:992px) {
+   
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 576px){
+
+}
